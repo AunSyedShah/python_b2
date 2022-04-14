@@ -1,9 +1,10 @@
-num = input("Enter a number: ")
-num = int(num)
+from selectors import EpollSelector
 
-if num > 0:
-    print("Positive")
-if num < 0:
-    print("Negative")
-if num == 0:
-    print("Zero")
+
+percentage = 65
+gender = "female"
+
+if percentage >= 85 and gender == "female":
+    print("scholarship granted")
+else:
+    print("scholarship not granted")
