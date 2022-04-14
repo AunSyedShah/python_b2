@@ -1,8 +1,9 @@
 num = input("Enter a number: ")
 num = int(num)
+
 if num > 0:
     print("Positive")
-elif num < 0:
+if num < 0:
     print("Negative")
-else:
+if num == 0:
     print("Zero")
