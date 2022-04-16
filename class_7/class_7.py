@@ -1,12 +1,9 @@
-# loop
-# for loop
+# list
+# list is a collection which is ordered and changeable. Allows duplicate members.
+# List is like an array in other programming languages.
 
+marks = [75, 85, 55, 95, 65]
+print(marks)
 
-for i in range(1, 11):
-    print(f"2 x {i} = {2 * i}")
-
-# 2 x 1 = 2
-# 2 x 2 = 4
-# 2 x 3 = 6
-# 2 x 4 = 8
-# 2 x 5 = 10
+for i in marks:
+    print(i)
