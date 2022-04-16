@@ -1,17 +1,6 @@
-# list
-# list is a collection which is ordered and changeable. Allows duplicate members.
-# List is like an array in other programming languages.
-
-marks = [75, 85, 55, 95, 65]
-print("specific element from list using index")
-print(marks[3])
-print("to get last element")
-print(marks[-1])
-print("get specific range of elements")
-print(marks[1:3])
-x = marks[1:3]
-
-print("printing all the elements in the list using for loop")
-for i in marks:
-    print(i)
-
+marks = [75, 67, 56, 98, 87]
+print("list methods")
+print("append method")
+marks.append(100)
+# print list without loop
+print(*marks, sep="\n")
