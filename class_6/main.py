@@ -1,7 +1,6 @@
-import math
+import time
 
-math.sqrt(16)
-print(math.sqrt(16))
-print(math.pow(3, 3))
-# tan = math.tan(45)
-print(math.tan(45))
+print(time.time())
+print("hello, I am your inst")
+time.sleep(5)
+print("hello, After Sleep")
