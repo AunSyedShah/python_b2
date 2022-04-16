@@ -7,7 +7,11 @@ print("specific element from list using index")
 print(marks[3])
 print("to get last element")
 print(marks[-1])
+print("get specific range of elements")
+print(marks[1:3])
+x = marks[1:3]
 
 print("printing all the elements in the list using for loop")
 for i in marks:
     print(i)
+
