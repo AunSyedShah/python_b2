@@ -1,12 +1,11 @@
-def hello():
+def greetings(name):
     """
-    Prints "Hello, World!
+    This function greets to the person passed in as parameter
     """
-    print("Hello World!")
-
-hello()
+    print(f"Hello, {name}")
 
 
-# f(x) = 2x + 3
-# f(1) = 2 + 3 = 5
-# f(2) = 4 + 3 = 7
+greetings("Swaroop")
+greetings("Larry")
+greetings("Aun Syed Shah")
+greetings("Shahid")
