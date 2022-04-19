@@ -1,11 +1,9 @@
-def greetings(name):
+def areaOfCircle(radius):
     """
-    This function greets to the person passed in as parameter
+    this function takes radius of a circle and print its area
     """
-    print(f"Hello, {name}")
+    print(2 * 3.12 * radius)
 
-
-greetings("Swaroop")
-greetings("Larry")
-greetings("Aun Syed Shah")
-greetings("Shahid")
+areaOfCircle(3.7)
+areaOfCircle(5.5)
+areaOfCircle(2)
