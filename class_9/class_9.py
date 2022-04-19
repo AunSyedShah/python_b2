@@ -1,9 +1,9 @@
 def areaOfCircle(radius):
     """
-    this function takes radius of a circle and print its area
+    this function takes radius of a circle and return its area
     """
-    print(2 * 3.12 * radius)
+    return (2 * 3.12 * radius)
 
-areaOfCircle(3.7)
-areaOfCircle(5.5)
-areaOfCircle(2)
+print(areaOfCircle(3.7))
+# you can store the return value of a function in a variable
+area = areaOfCircle(3.7)
