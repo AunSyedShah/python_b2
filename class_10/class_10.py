@@ -1,14 +1,19 @@
-roman_counting_10 = {
-    1: 'I',
-    2: 'II',
-    3: 'III',
-    4: 'IV',
-    5: 'V',
-    6: 'VI',
-    7: 'VII',
-    8: 'VIII',
-    9: 'IX',
-    10: 'X',
+persons = {
+    "3500000000000": {
+        "name": "John",
+        "age": 30,
+        "gender": "male",
+        "address":{
+            "apt. no":"417",
+            "city":"karachi"
+        }
+    },
+    "350000000001": {
+        "name": "Aun",
+        "age": 24,
+        "gender": "male"
+    }
 }
-
-print(roman_counting_10[1])
+persons["3500000000000"]["address"]["city"] = "London"
+persons.pop("3500000000000")
+print(persons)
