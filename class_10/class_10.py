@@ -1,9 +1,11 @@
-age = 24
-name = "Swaroop"
-print(f"My age is {age} years")
+days_of_weeks = {
+    1: 'Monday',
+    2: 'Tuesday',
+    3: 'Wednesday',
+    4: 'Thursday',
+    5: 'Friday',
+    6: 'Saturday',
+    7: 'Sunday'
+}
 
-phy = 23
-chem = 34
-math = 56
-total = phy + chem + math
-print(f"Total marks are {total}")
+print(days_of_weeks)
