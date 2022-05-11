@@ -15,10 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.http import HttpResponse
 
-from . import views
+def vulms(request):
+    return HttpResponse("""
+    <h1>Welcome to the Vulnerable Web Application</h1>
+    """)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('aunsyedshah/', views.hello),
+    path('vulms/', vulms),
 ]
